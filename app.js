@@ -94,3 +94,18 @@ const factor = (number, values = []) => {
   values.push(counter);
   return counter == number ? values : factor(number / counter, values);
 };
+
+const mcm = (numbers) => {
+  const max = Math.max.apply(null, numbers);
+  let fac = 1;
+  let found = false;
+  while (!found) {
+    let match = 0;
+    const mul = fac * max;
+    numbers.forEach((element) => {
+      if (mul % element == 0) match++;
+    });
+    match == numbers.length ? (found = true) : fac++;
+  }
+  return fac * max;
+};

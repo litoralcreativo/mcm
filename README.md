@@ -5,12 +5,12 @@ para obtener el mcm de un conjunto de numeros, llamar la funcion mcm() o mcm_var
 mcm() para valores chicos 
 mcm_var() para valores elevados
 
->mcm([12, 30, 33])
-mcm_var([391, 547, 8746, 31847])
+>mcm([12, 30, 33]);
+>mcm_var([391, 547, 8746, 31847]);
 
 devuelve:
 >3
-59571986802974
+>59571986802974
 
 # Máximo comun divisor (MCD)
 

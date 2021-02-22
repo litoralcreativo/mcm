@@ -1,6 +1,6 @@
 # Mínimo Común Múltiplo (mcm)
 
-para obtener el mcm de un conjunto de numeros, llamar la funcion mcm() o mcm_var() y pasar como parametro un array con los valores:
+para obtener el mcm de un conjunto de numeros, llamar la funcion >mcm()> o mcm_var() y pasar como parametro un array con los valores:
 
 mcm() para valores chicos y mcm_var() para valores elevados
 

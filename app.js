@@ -131,8 +131,8 @@ const mcm = (numbers) => {
 };
 
 const mcd = (numbers) => {
-  const max = Math.max.apply(null, numbers);
-  let div = max;
+  const min = Math.min.apply(null, numbers);
+  let div = min;
   let found = false;
   while (!found) {
     let match = 0;

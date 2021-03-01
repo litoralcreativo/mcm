@@ -20,7 +20,7 @@ para obtener el MCD de un conjunto de numeros, llamar la funcion mcd() o mcd_var
 mcd() para valores chicos 
 mcd_var() para valores elevados
 
-**mcm([48, 60])**
+**mcd([48, 60])**
 devuelve:
 **4**
 
